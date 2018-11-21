@@ -12,7 +12,7 @@ class User
   def teach
     i = rand(self.knowledge.count - 1)
     puts "i: #{i}"
-    self.knowledge[i]
+    self.knowledge
   end
 
 end
