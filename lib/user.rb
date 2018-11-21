@@ -11,9 +11,7 @@ class User
 
   def teach
     i = rand(self.knowledge.count - 1)
-    puts "i: #{i}"
-    puts self.knowledge
-    puts self.knowledge[i]
+    self.knowledge[i]
   end
 
 end
