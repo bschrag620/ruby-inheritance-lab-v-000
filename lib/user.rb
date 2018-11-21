@@ -8,4 +8,9 @@ class User
   def learn(string)
     self.knowledge << string
   end
+
+  def teach
+    self.knowledge[rand(self.knowledge.count - 1)]
+  end
+    
 end
