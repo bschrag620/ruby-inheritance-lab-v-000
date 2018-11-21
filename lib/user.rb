@@ -12,5 +12,5 @@ class User
   def teach
     self.knowledge[rand(self.knowledge.count - 1)]
   end
-    
+
 end
