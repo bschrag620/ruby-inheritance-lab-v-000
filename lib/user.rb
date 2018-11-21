@@ -10,7 +10,8 @@ class User
   end
 
   def teach
-    self.knowledge[rand(self.knowledge.count - 1)]
+    i = rand(self.knowledge.count - 1)
+    puts "i: #{i}"
   end
 
 end
