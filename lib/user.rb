@@ -4,4 +4,8 @@ class User
   def initialize
     self.knowledge = []
   end
+
+  def learn(string)
+    self.knowledge << string
+  end
 end
